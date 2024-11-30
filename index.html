@@ -30,24 +30,41 @@
     }
     li {
       background-color: #ffffff;
-      margin: 1em 0;
+      margin: 2em 0;
       padding: 1.5em;
       border: 2px solid #ffcc00;
       border-radius: 10px;
-      display: flex;
-      align-items: center;
-      gap: 20px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
+    .book-images {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 1em;
+    }
     img {
-      width: 120px;
+      width: 180px;
       height: auto;
       border-radius: 10px;
+      border: 2px solid #ffcc00;
+    }
+    .book-details {
+      text-align: center;
+    }
+    .book-title {
+      color: #2a2a72;
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+    .book-description {
+      margin: 1em 0;
+      font-size: 1.1em;
     }
     a {
       text-decoration: none;
       color: #ff6600;
       font-weight: bold;
+      font-size: 1.1em;
     }
     a:hover {
       text-decoration: underline;
@@ -70,51 +87,39 @@
     <h2 style="color: #ff6600;">Book List</h2>
     <ul>
       <li>
-        <img src="jesusstorybook.jpg" alt="The Jesus Storybook Bible">
-        <div>
-          <strong style="color: #2a2a72;">The Jesus Storybook Bible</strong> by Sally Lloyd-Jones
-          <p>Discover how every story in the Bible points to Jesus in this beautifully illustrated book for kids.</p>
+        <div class="book-images">
+          <img src="jesusstorybook.jpg" alt="The Jesus Storybook Bible">
+          <img src="jesusstorybook2.jpg" alt="The Jesus Storybook Bible">
+          <img src="jesusstorybook3.jpg" alt="The Jesus Storybook Bible">
+        </div>
+        <div class="book-details">
+          <div class="book-title">The Jesus Storybook Bible</div>
+          <p class="book-description">This engaging and beautifully illustrated book introduces children to the overarching narrative of the Bible, showing how every story whispers Jesus' name. It's perfect for kids aged 4-8 and provides a meaningful way to learn about God's love and redemption.</p>
           <a href="https://www.amazon.com/dp/0310708257">Buy on Amazon</a>
         </div>
       </li>
       <li>
-        <img src="godgaveusyou.jpg" alt="God Gave Us You">
-        <div>
-          <strong style="color: #2a2a72;">God Gave Us You</strong> by Lisa Tawn Bergren
-          <p>A heartwarming story celebrating the gift of life and the joy of welcoming a child into a family.</p>
+        <div class="book-images">
+          <img src="godgaveusyou.jpg" alt="God Gave Us You">
+          <img src="godgaveusyou2.jpg" alt="God Gave Us You">
+          <img src="godgaveusyou3.jpg" alt="God Gave Us You">
+        </div>
+        <div class="book-details">
+          <div class="book-title">God Gave Us You</div>
+          <p class="book-description">This heartwarming story captures the joy and love of welcoming a child into the family. With tender illustrations and meaningful text, it reassures young readers of their unique place in God's plan and their parents' hearts.</p>
           <a href="https://www.amazon.com/dp/1578563232">Buy on Amazon</a>
         </div>
       </li>
       <li>
-        <img src="https://via.placeholder.com/100?text=Biggest+Story+ABC" alt="The Biggest Story ABC">
-        <div>
-          <strong style="color: #2a2a72;">The Biggest Story ABC</strong> by Kevin DeYoung
-          <p>Introduce your child to the Bible's story through colorful alphabet lessons and fun rhymes.</p>
+        <div class="book-images">
+          <img src="https://via.placeholder.com/180" alt="The Biggest Story ABC">
+          <img src="https://via.placeholder.com/180" alt="The Biggest Story ABC">
+          <img src="https://via.placeholder.com/180" alt="The Biggest Story ABC">
+        </div>
+        <div class="book-details">
+          <div class="book-title">The Biggest Story ABC</div>
+          <p class="book-description">This creative and colorful book teaches kids the story of the Bible through the alphabet. Each letter corresponds to a key part of the Bible's grand narrative, paired with vibrant illustrations and playful rhymes.</p>
           <a href="https://www.amazon.com/dp/1433558184">Buy on Amazon</a>
-        </div>
-      </li>
-      <li>
-        <img src="https://via.placeholder.com/100?text=Indescribable" alt="Indescribable">
-        <div>
-          <strong style="color: #2a2a72;">Indescribable</strong> by Louie Giglio
-          <p>Explore God’s creativity in the universe through devotions that mix faith and science.</p>
-          <a href="https://www.amazon.com/dp/0718086104">Buy on Amazon</a>
-        </div>
-      </li>
-      <li>
-        <img src="https://via.placeholder.com/100?text=Found+Psalm+23" alt="Found: Psalm 23">
-        <div>
-          <strong style="color: #2a2a72;">Found: Psalm 23</strong> by Sally Lloyd-Jones
-          <p>A gentle retelling of Psalm 23, perfect for teaching young children about God's care and love.</p>
-          <a href="https://www.amazon.com/dp/031075750X">Buy on Amazon</a>
-        </div>
-      </li>
-      <li>
-        <img src="https://via.placeholder.com/100?text=When+God+Made+You" alt="When God Made You">
-        <div>
-          <strong style="color: #2a2a72;">When God Made You</strong> by Matthew Paul Turner
-          <p>Celebrate the beauty and individuality of every child as God uniquely created them.</p>
-          <a href="https://www.amazon.com/dp/1601429185">Buy on Amazon</a>
         </div>
       </li>
     </ul>
