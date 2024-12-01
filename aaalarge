@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Found: Psalm 23 - Large View</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff8e1;
+      color: #333;
+      text-align: center;
+    }
+    img {
+      max-width: 80%;
+      height: auto;
+      margin-top: 20px;
+      border: 5px solid #ffc107;
+      border-radius: 10px;
+    }
+    .book-details {
+      margin-top: 20px;
+      padding: 20px;
+    }
+    .book-title {
+      color: #2a2a72;
+      font-size: 2em;
+      font-weight: bold;
+    }
+    .book-author {
+      font-size: 1.2em;
+      color: #555;
+    }
+    .book-description {
+      margin: 20px 0;
+      font-size: 1.2em;
+    }
+    .back-link {
+      display: inline-block;
+      margin-top: 20px;
+      font-size: 1.2em;
+      color: #ff6f00;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>Found: Psalm 23</h1>
+  <img src="aaa.jpg" alt="Found: Psalm 23 - Large View">
+  <div class="book-details">
+    <div class="book-title">Found: Psalm 23</div>
+    <div class="book-author">by Sally Lloyd-Jones</div>
+    <p class="book-description">A comforting retelling of Psalm 23, this book brings peace and joy to children as they learn about God’s care and love. The beautiful illustrations and simple text make it perfect for young readers.</p>
+    <a href="index.html" class="back-link">Back to Book List</a>
+  </div>
+</body>
+</html>
