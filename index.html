@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Biblically Accurate Children's Books</title>
+  <title>Biblically Accurate Christian Children's Books</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -24,12 +24,6 @@
     main {
       padding: 2em;
     }
-    h2 {
-      color: #ff6f00;
-      text-align: center;
-      font-size: 2em;
-      margin-bottom: 1em;
-    }
     ul {
       list-style-type: none;
       padding: 0;
@@ -42,48 +36,12 @@
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
-    .book-images {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 20px;
-      margin-bottom: 1em;
-    }
-    img {
+    .book-images img {
       width: 180px;
       height: auto;
       border-radius: 10px;
       border: 2px solid #ffc107;
-    }
-    .book-details {
-      text-align: center;
-    }
-    .book-title {
-      color: #2a2a72;
-      font-size: 1.8em;
-      font-weight: bold;
-    }
-    .book-author {
-      font-size: 1.2em;
-      color: #555;
-      margin-top: 0.2em;
-    }
-    .book-description {
-      margin: 1em 0;
-      font-size: 1.2em;
-    }
-    .book-extra {
-      font-size: 1em;
-      color: #666;
-    }
-    a {
-      text-decoration: none;
-      color: #ff6f00;
-      font-weight: bold;
-      font-size: 1.2em;
-    }
-    a:hover {
-      text-decoration: underline;
+      cursor: pointer;
     }
     footer {
       text-align: center;
@@ -93,20 +51,6 @@
       margin-top: 2em;
       font-size: 1em;
     }
-    @media (max-width: 768px) {
-      img {
-        width: 140px;
-      }
-      .book-title {
-        font-size: 1.5em;
-      }
-      .book-description {
-        font-size: 1em;
-      }
-      a {
-        font-size: 1em;
-      }
-    }
   </style>
 </head>
 <body>
@@ -114,21 +58,19 @@
     Biblically Accurate Christian Children's Books
   </header>
   <main>
-    <h2>Book List</h2>
     <ul>
-      <!-- Book 1 -->
+      <!-- Example Book 1 -->
       <li>
         <div class="book-images">
-          <img src="jesusstorybook.jpg" alt="The Jesus Storybook Bible">
-          <img src="js1.jpg" alt="The Jesus Storybook Bible - Image 2">
-          <img src="js4.jpg" alt="The Jesus Storybook Bible - Image 3">
+          <!-- Link the first image to its own larger version -->
+          <a href="jesusstorybook-large.html">
+            <img src="jesusstorybook.jpg" alt="The Jesus Storybook Bible">
+          </a>
         </div>
         <div class="book-details">
-          <div class="book-title">The Jesus Storybook Bible</div>
-          <div class="book-author">by Sally Lloyd-Jones</div>
-          <p class="book-description">This beautifully illustrated book introduces children to the narrative of the Bible, showing how every story whispers Jesus' name. A meaningful way for kids aged 4-8 to understand God's love and redemption.</p>
-          <p class="book-extra"><strong>Age Range:</strong> 4-8 years | <strong>Themes:</strong> Redemption, God's Love</p>
-          <a href="https://www.amazon.com/dp/0310708257">Buy on Amazon</a>
+          <h3>The Jesus Storybook Bible</h3>
+          <p>by Sally Lloyd-Jones</p>
+          <p>This beautifully illustrated book introduces children to the narrative of the Bible, showing how every story whispers Jesus' name.</p>
         </div>
       </li>
       <!-- Book 2 -->
