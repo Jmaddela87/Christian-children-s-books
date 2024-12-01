@@ -24,6 +24,12 @@
     main {
       padding: 2em;
     }
+    h2 {
+      color: #ff6f00;
+      text-align: center;
+      font-size: 2em;
+      margin-bottom: 1em;
+    }
     ul {
       list-style-type: none;
       padding: 0;
@@ -43,12 +49,11 @@
       gap: 20px;
       margin-bottom: 1em;
     }
-    .book-images img {
-      width: 300px; /* Increased size */
+    img {
+      width: 180px;
       height: auto;
       border-radius: 10px;
       border: 2px solid #ffc107;
-      cursor: pointer;
     }
     .book-details {
       text-align: center;
@@ -88,29 +93,42 @@
       margin-top: 2em;
       font-size: 1em;
     }
+    @media (max-width: 768px) {
+      img {
+        width: 140px;
+      }
+      .book-title {
+        font-size: 1.5em;
+      }
+      .book-description {
+        font-size: 1em;
+      }
+      a {
+        font-size: 1em;
+      }
+    }
   </style>
 </head>
 <body>
   <header>
-    Biblically Accurate Children's Books
+    Biblically Accurate Christian Children's Books
   </header>
   <main>
+    <h2>Book List</h2>
     <ul>
       <!-- Book 1 -->
       <li>
-  <div class="book-images">
-    <a href="jesusstorybook-large.html">
-      <img src="jesusstorybook.jpg" alt="The Jesus Storybook Bible">
-    </a>
-    <img src="js1.png" alt="The Jesus Storybook Bible - Image 2">
-    <img src="js4.png" alt="The Jesus Storybook Bible - Image 3">
-  </div>
-</li>
+        <div class="book-images">
+          <img src="jesusstorybook.jpg" alt="The Jesus Storybook Bible">
+          <img src="js1.jpg" alt="The Jesus Storybook Bible - Image 2">
+          <img src="js4.jpg" alt="The Jesus Storybook Bible - Image 3">
         </div>
         <div class="book-details">
           <div class="book-title">The Jesus Storybook Bible</div>
           <div class="book-author">by Sally Lloyd-Jones</div>
-          <p>This beautifully illustrated book introduces children to the narrative of the Bible, showing how every story whispers Jesus' name.</p>
+          <p class="book-description">This beautifully illustrated book introduces children to the narrative of the Bible, showing how every story whispers Jesus' name. A meaningful way for kids aged 4-8 to understand God's love and redemption.</p>
+          <p class="book-extra"><strong>Age Range:</strong> 4-8 years | <strong>Themes:</strong> Redemption, God's Love</p>
+          <a href="https://www.amazon.com/dp/0310708257">Buy on Amazon</a>
         </div>
       </li>
       <!-- Book 2 -->
@@ -124,6 +142,8 @@
           <div class="book-title">God Gave Us You</div>
           <div class="book-author">by Lisa Tawn Bergren</div>
           <p class="book-description">Celebrate the special bond between parent and child in this tender story. A perfect bedtime read for children aged 2-6, reminding them they are a precious gift from God.</p>
+          <p class="book-extra"><strong>Age Range:</strong> 2-6 years | <strong>Themes:</strong> Family, God's Plan</p>
+          <a href="https://www.amazon.com/dp/1578563232">Buy on Amazon</a>
         </div>
       </li>
       <!-- Book 3 -->
@@ -137,22 +157,23 @@
           <div class="book-title">The Biggest Story ABC</div>
           <div class="book-author">by Kevin DeYoung</div>
           <p class="book-description">A colorful and creative book teaching kids the Bible's story through the alphabet. Each letter represents a key event in God's grand narrative, accompanied by vibrant illustrations and playful rhymes.</p>
+          <p class="book-extra"><strong>Age Range:</strong> 4-8 years | <strong>Themes:</strong> Bible Stories, Alphabet Learning</p>
+          <a href="https://www.amazon.com/dp/1433558184">Buy on Amazon</a>
         </div>
       </li>
       <!-- Book 4 -->
       <li>
-  <div class="book-images">
-    <!-- Wrap the main image in a hyperlink -->
-    <a href="aaa.html">
-      <img src="aaa.jpg" alt="Found: Psalm 23">
-    </a>
-    <img src="aaa2.jpg" alt="Found: Psalm 23 - Image 2">
-    <img src="aaa3.jpg" alt="Found: Psalm 23 - Image 3">
+        <div class="book-images">
+          <img src="aaa.jpg" alt="Found: Psalm 23">
+          <img src="aaa2.jpg" alt="Found: Psalm 23 - Image 2">
+          <img src="aaa3.jpg" alt="Found: Psalm 23 - Image 3">
         </div>
         <div class="book-details">
           <div class="book-title">Found: Psalm 23</div>
           <div class="book-author">by Sally Lloyd-Jones</div>
           <p class="book-description">A comforting retelling of Psalm 23, this book brings peace and joy to children as they learn about God’s care and love.</p>
+          <p class="book-extra"><strong>Age Range:</strong> 4-7 years | <strong>Themes:</strong> Trust, God’s Care</p>
+          <a href="https://www.amazon.com/dp/031075750X">Buy on Amazon</a>
         </div>
       </li>
       <!-- Book 5 -->
@@ -166,6 +187,8 @@
           <div class="book-title">Indescribable</div>
           <div class="book-author">by Louie Giglio</div>
           <p class="book-description">A devotional bridging faith and science, inspiring awe in kids about God’s creation. Perfect for curious young minds.</p>
+          <p class="book-extra"><strong>Age Range:</strong> 8-12 years | <strong>Themes:</strong> Creation, Science, Faith</p>
+          <a href="https://www.amazon.com/dp/0718086104">Buy on Amazon</a>
         </div>
       </li>
       <!-- Book 6 -->
@@ -178,7 +201,9 @@
         <div class="book-details">
           <div class="book-title">Love Letters from God</div>
           <div class="book-author">by Glenys Nellist</div>
-          <p>This unique book includes a love letter from God on each page, reminding children of His deep and personal love for them.</p>
+          <p class="book-description">This unique book includes a love letter from God on each page, reminding children of His deep and personal love for them.</p>
+          <p class="book-extra"><strong>Age Range:</strong> 6-10 years | <strong>Themes:</strong> God’s Love, Encouragement</p>
+          <a href="https://www.amazon.com/dp/0310733840">Buy on Amazon</a>
         </div>
       </li>
       <!-- Book 7 -->
@@ -191,7 +216,9 @@
         <div class="book-details">
           <div class="book-title">Thoughts to Make Your Heart Sing</div>
           <div class="book-author">by Sally Lloyd-Jones</div>
-          <p>Short and powerful devotions for kids, written in a way to inspire them about God's love and presence in their lives.</p>
+          <p class="book-description">Short and powerful devotions for kids, written in a way to inspire them about God's love and presence in their lives.</p>
+          <p class="book-extra"><strong>Age Range:</strong> 6-12 years | <strong>Themes:</strong> Faith, Joy, Encouragement</p>
+          <a href="https://www.amazon.com/dp/0310770039">Buy on Amazon</a>
         </div>
       </li>
       <!-- Book 8 -->
@@ -204,7 +231,9 @@
         <div class="book-details">
           <div class="book-title">The Garden, the Curtain, and the Cross</div>
           <div class="book-author">by Carl Laferton</div>
-          <p>This book retells the Gospel in a way that is simple and accessible for young children, focusing on how Jesus’ work on the cross changes everything.</p>
+          <p class="book-description">This book retells the Gospel in a way that is simple and accessible for young children, focusing on how Jesus’ work on the cross changes everything.</p>
+          <p class="book-extra"><strong>Age Range:</strong> 3-7 years | <strong>Themes:</strong> Gospel, Redemption</p>
+          <a href="https://www.amazon.com/dp/1784980129">Buy on Amazon</a>
         </div>
       </li>
       <!-- Book 9 -->
@@ -217,7 +246,9 @@
         <div class="book-details">
           <div class="book-title">The Biggest Story</div>
           <div class="book-author">by Kevin DeYoung</div>
-          <p>An engaging retelling of the overarching story of the Bible, showing kids how all of Scripture points to Jesus and God’s grand redemption plan.</p>
+          <p class="book-description">An engaging retelling of the overarching story of the Bible, showing kids how all of Scripture points to Jesus and God’s grand redemption plan.</p>
+          <p class="book-extra"><strong>Age Range:</strong> 6-12 years | <strong>Themes:</strong> Biblical Narrative, Redemption</p>
+          <a href="https://www.amazon.com/dp/1433542447">Buy on Amazon</a>
         </div>
       </li>
       <!-- Book 10 -->
@@ -230,7 +261,9 @@
         <div class="book-details">
           <div class="book-title">The Story of God's Love for You</div>
           <div class="book-author">by Sally Lloyd-Jones</div>
-          <p>A beautifully written narrative that traces God’s love throughout the Bible, designed for children to understand His plan of redemption and grace.</p>
+          <p class="book-description">A beautifully written narrative that traces God’s love throughout the Bible, designed for children to understand His plan of redemption and grace.</p>
+          <p class="book-extra"><strong>Age Range:</strong> 6-12 years | <strong>Themes:</strong> God's Love, Grace</p>
+          <a href="https://www.amazon.com/dp/0310733840">Buy on Amazon</a>
         </div>
       </li>
     </ul>
